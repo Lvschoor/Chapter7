@@ -2,9 +2,6 @@ package be.intecbrussel;
 
 public class PrimesWithArraysOnlyDivideByPrimes {
 
-
-    //WORK IN PROGRESS
-
     public static void main(String[] args) {
         // Declare array to store primes
         int[] primes = new int[168];
