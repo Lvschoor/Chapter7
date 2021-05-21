@@ -9,7 +9,6 @@ public class PrimesWithArraysOnlyDivideByPrimes {
         // Declare array to store primes
         int[] primes = new int[168];
         // Since all prime numbers are odd except 2, we take them out of the "loop"
-        System.out.println('2');
         primes[0]= 2;
         // Initialize count of prime numbers
         int counter = 1;
@@ -27,7 +26,6 @@ public class PrimesWithArraysOnlyDivideByPrimes {
             }
             // Output all the prime numbers, put the value in the array and increment the counter
             if (prime) {
-                System.out.println(number);
                 primes[counter]=number;
                 counter++;
             }
