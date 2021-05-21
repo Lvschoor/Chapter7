@@ -30,10 +30,10 @@ public class PrimesWithArraysOnlyDivideByPrimes {
                 counter++;
             }
         }
-        // Output the counter
-        System.out.println("Total prime numbers smaller than 1000 is: " + counter);
+        // Output the primes and the counter
         for (int p: primes){
             System.out.println(p);
         }
+        System.out.println("Total prime numbers smaller than 1000 is: " + counter);
     }
 }
